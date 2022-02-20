@@ -1,0 +1,399 @@
+ 3	How hungry are you right now?	VAS	38.910000
+ 4	How full are you right now?	VAS	50.480000
+ 7	How thirsty are you right now?	VAS	54.020000
+12	Rate Intensity		28.090000
+16	How much do you like or dislike the item?	LHS	45.070396
+9	Rate Sweetness		45.820000
+ 5	How oily is this food?		26.529999
+ 2	How fatty is this food?		29.580000
+ 1	How creamy is this food?	VAS	61.579998
+ 0	How familiar is this flavor?	VAS	47.590000
+ 8	How much do you want to eat this at the end of the experiment?	VAS	67.519997
+12	Rate Intensity		43.649998
+16	How much do you like or dislike the item?	LHS	46.478897
+9	Rate Sweetness		52.730000
+ 5	How oily is this food?		26.689999
+ 2	How fatty is this food?		24.119999
+ 1	How creamy is this food?	VAS	63.669998
+ 0	How familiar is this flavor?	VAS	77.169998
+ 8	How much do you want to eat this at the end of the experiment?	VAS	70.900002
+12	Rate Intensity		47.660000
+16	How much do you like or dislike the item?	LHS	45.070396
+9	Rate Sweetness		44.369999
+ 5	How oily is this food?		24.119999
+ 2	How fatty is this food?		31.029999
+ 1	How creamy is this food?	VAS	76.529999
+ 0	How familiar is this flavor?	VAS	78.139999
+ 8	How much do you want to eat this at the end of the experiment?	VAS	78.779999
+12	Rate Intensity		46.820000
+16	How much do you like or dislike the item?	LHS	42.722996
+9	Rate Sweetness		18.010000
+ 5	How oily is this food?		18.330000
+ 2	How fatty is this food?		19.289999
+ 1	How creamy is this food?	VAS	64.309998
+ 0	How familiar is this flavor?	VAS	72.189995
+ 8	How much do you want to eat this at the end of the experiment?	VAS	66.559998
+12	Rate Intensity		35.119999
+16	How much do you like or dislike the item?	LHS	36.619698
+9	Rate Sweetness		23.469999
+ 5	How oily is this food?		30.389999
+ 2	How fatty is this food?		22.670000
+ 1	How creamy is this food?	VAS	61.410000
+ 0	How familiar is this flavor?	VAS	67.849998
+ 8	How much do you want to eat this at the end of the experiment?	VAS	63.669998
+12	Rate Intensity		37.119999
+16	How much do you like or dislike the item?	LHS	39.906097
+9	Rate Sweetness		37.299999
+ 5	How oily is this food?		20.260000
+ 2	How fatty is this food?		26.209999
+ 1	How creamy is this food?	VAS	72.349998
+ 0	How familiar is this flavor?	VAS	79.739998
+ 8	How much do you want to eat this at the end of the experiment?	VAS	77.650002
+12	Rate Intensity		35.619999
+16	How much do you like or dislike the item?	LHS	40.375595
+9	Rate Sweetness		38.910000
+ 5	How oily is this food?		20.580000
+ 2	How fatty is this food?		25.879999
+ 1	How creamy is this food?	VAS	70.580002
+ 0	How familiar is this flavor?	VAS	83.439995
+ 8	How much do you want to eat this at the end of the experiment?	VAS	77.650002
+12	Rate Intensity		36.790001
+16	How much do you like or dislike the item?	LHS	42.722996
+9	Rate Sweetness		38.750000
+ 5	How oily is this food?		25.240000
+ 2	How fatty is this food?		26.849998
+ 1	How creamy is this food?	VAS	79.900002
+ 0	How familiar is this flavor?	VAS	79.739998
+ 8	How much do you want to eat this at the end of the experiment?	VAS	79.099998
+12	Rate Intensity		35.450001
+16	How much do you like or dislike the item?	LHS	40.845097
+9	Rate Sweetness		37.299999
+ 5	How oily is this food?		20.900000
+ 2	How fatty is this food?		23.949999
+ 1	How creamy is this food?	VAS	76.049995
+ 0	How familiar is this flavor?	VAS	83.759995
+ 8	How much do you want to eat this at the end of the experiment?	VAS	80.869995
+12	Rate Intensity		39.799999
+16	How much do you like or dislike the item?	LHS	29.577497
+9	Rate Sweetness		42.930000
+ 5	How oily is this food?		11.090000
+ 2	How fatty is this food?		23.150000
+ 1	How creamy is this food?	VAS	58.520000
+ 0	How familiar is this flavor?	VAS	80.709999
+ 8	How much do you want to eat this at the end of the experiment?	VAS	61.579998
+12	Rate Intensity		34.779999
+16	How much do you like or dislike the item?	LHS	41.314598
+9	Rate Sweetness		37.939999
+ 5	How oily is this food?		21.859999
+ 2	How fatty is this food?		22.670000
+ 1	How creamy is this food?	VAS	78.459999
+ 0	How familiar is this flavor?	VAS	83.279999
+ 8	How much do you want to eat this at the end of the experiment?	VAS	81.509995
+12	Rate Intensity		37.459999
+16	How much do you like or dislike the item?	LHS	42.722996
+9	Rate Sweetness		38.419998
+ 5	How oily is this food?		20.260000
+ 2	How fatty is this food?		23.469999
+ 1	How creamy is this food?	VAS	78.299995
+ 0	How familiar is this flavor?	VAS	82.639999
+ 8	How much do you want to eat this at the end of the experiment?	VAS	81.349998
+12	Rate Intensity		28.260000
+16	How much do you like or dislike the item?	LHS	-7.981202
+9	Rate Sweetness		4.980000
+ 5	How oily is this food?		14.469999
+ 2	How fatty is this food?		12.380000
+ 1	How creamy is this food?	VAS	27.170000
+ 0	How familiar is this flavor?	VAS	66.400002
+ 8	How much do you want to eat this at the end of the experiment?	VAS	25.719999
+12	Rate Intensity		14.549999
+16	How much do you like or dislike the item?	LHS	-15.962402
+9	Rate Sweetness		6.750000
+ 5	How oily is this food?		14.790000
+ 2	How fatty is this food?		7.880000
+ 1	How creamy is this food?	VAS	24.119999
+ 0	How familiar is this flavor?	VAS	75.720001
+ 8	How much do you want to eat this at the end of the experiment?	VAS	12.059999
+12	Rate Intensity		30.269999
+16	How much do you like or dislike the item?	LHS	6.103297
+9	Rate Sweetness		50.320000
+ 5	How oily is this food?		15.589999
+ 2	How fatty is this food?		20.100000
+ 1	How creamy is this food?	VAS	32.799999
+ 0	How familiar is this flavor?	VAS	77.330002
+ 8	How much do you want to eat this at the end of the experiment?	VAS	27.330000
+12	Rate Intensity		37.290001
+16	How much do you like or dislike the item?	LHS	-41.784000
+9	Rate Sweetness		2.730000
+ 5	How oily is this food?		14.469999
+ 2	How fatty is this food?		15.270000
+ 1	How creamy is this food?	VAS	23.309999
+ 0	How familiar is this flavor?	VAS	29.099998
+ 8	How much do you want to eat this at the end of the experiment?	VAS	0.000000
+12	Rate Intensity		32.270000
+16	How much do you like or dislike the item?	LHS	10.328597
+9	Rate Sweetness		65.110001
+ 5	How oily is this food?		9.160000
+ 2	How fatty is this food?		10.770000
+ 1	How creamy is this food?	VAS	21.379999
+ 0	How familiar is this flavor?	VAS	70.419998
+ 8	How much do you want to eat this at the end of the experiment?	VAS	38.419998
+12	Rate Intensity		29.599998
+16	How much do you like or dislike the item?	LHS	-8.920202
+9	Rate Sweetness		4.820000
+ 5	How oily is this food?		9.650000
+ 2	How fatty is this food?		11.090000
+ 1	How creamy is this food?	VAS	11.740000
+ 0	How familiar is this flavor?	VAS	63.500000
+ 8	How much do you want to eat this at the end of the experiment?	VAS	6.910000
+12	Rate Intensity		18.059999
+16	How much do you like or dislike the item?	LHS	-6.572803
+9	Rate Sweetness		31.990000
+ 5	How oily is this food?		8.520000
+ 2	How fatty is this food?		7.560000
+ 1	How creamy is this food?	VAS	18.330000
+ 0	How familiar is this flavor?	VAS	64.790001
+ 8	How much do you want to eat this at the end of the experiment?	VAS	11.740000
+12	Rate Intensity		33.110001
+16	How much do you like or dislike the item?	LHS	13.145497
+9	Rate Sweetness		53.219997
+ 5	How oily is this food?		8.200000
+ 2	How fatty is this food?		9.969999
+ 1	How creamy is this food?	VAS	27.170000
+ 0	How familiar is this flavor?	VAS	69.610001
+ 8	How much do you want to eat this at the end of the experiment?	VAS	31.990000
+12	Rate Intensity		31.269999
+16	How much do you like or dislike the item?	LHS	4.694798
+9	Rate Sweetness		19.289999
+ 5	How oily is this food?		8.200000
+ 2	How fatty is this food?		12.540000
+ 1	How creamy is this food?	VAS	24.760000
+ 0	How familiar is this flavor?	VAS	66.080002
+ 8	How much do you want to eat this at the end of the experiment?	VAS	21.699999
+12	Rate Intensity		29.260000
+16	How much do you like or dislike the item?	LHS	-6.103302
+9	Rate Sweetness		20.260000
+ 5	How oily is this food?		8.840000
+ 2	How fatty is this food?		14.790000
+ 1	How creamy is this food?	VAS	20.900000
+ 0	How familiar is this flavor?	VAS	60.930000
+ 8	How much do you want to eat this at the end of the experiment?	VAS	20.580000
+12	Rate Intensity		25.250000
+16	How much do you like or dislike the item?	LHS	-0.000003
+9	Rate Sweetness		18.170000
+ 5	How oily is this food?		8.520000
+ 2	How fatty is this food?		13.179999
+ 1	How creamy is this food?	VAS	23.309999
+ 0	How familiar is this flavor?	VAS	79.900002
+ 8	How much do you want to eat this at the end of the experiment?	VAS	18.969999
+12	Rate Intensity		21.910000
+16	How much do you like or dislike the item?	LHS	-15.493002
+9	Rate Sweetness		9.160000
+ 5	How oily is this food?		9.650000
+ 2	How fatty is this food?		9.490000
+ 1	How creamy is this food?	VAS	23.949999
+ 0	How familiar is this flavor?	VAS	59.320000
+ 8	How much do you want to eat this at the end of the experiment?	VAS	4.660000
+ 3	How hungry are you right now?	VAS	21.699999
+ 4	How full are you right now?	VAS	53.699997
+ 7	How thirsty are you right now?	VAS	28.939999
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

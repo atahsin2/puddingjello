@@ -1,0 +1,12 @@
+Q) How to get Python libraries?
+
+You need to install them. Check install instructions for each library.
+Usually, the python package manager (pip3) can be used to install things.
+e.g.: pip3 install --user --upgrade pandas
+
+Q) How to organize my dependencies?
+
+Most projects come with a `requirements.txt` file that contains the list
+of libraries that project depends on. To install all of those dependencies,
+you can provide that file to pip3.
+e.g. pip3 install --user --upgrade -r requirements.txt

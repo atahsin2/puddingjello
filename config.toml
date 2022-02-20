@@ -1,0 +1,37 @@
+# OA or Healthy
+participant_type = "Healthy"
+
+# Pudding or Jello or Both
+food_type = "Both"
+
+subject_id = 3012
+
+pudding_profile = [
+6.90,
+1.60,
+1.60,
+0.00,
+0.00,
+1.60,
+3.10,
+3.10,
+0.00,
+6.90,
+6.90,
+3.10,
+]
+
+jello_profile = [
+0.10,
+0.00,
+0.56,
+0.00,
+1.00,
+0.00,
+0.10,
+1.00,
+0.56,
+1.00,
+0.56,
+0.10,
+]
