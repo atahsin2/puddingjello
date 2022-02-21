@@ -264,17 +264,18 @@ def get_keyword(description):
 def get_sorted_output(food):
     if food not in (Food.PUDDING, Food.JELLO):
         return None
-    if food is not food_type:
+    elif food is not food_type and food_type is not Food.BOTH:
         return None
-    profile = set(subject.get_profile(food_type=food))
+    profile = sorted(set(subject.get_profile(food_type=food)))
     output = {}
     for concentration in profile:
         descr_score_pairs = []
         for question in food_questions:
-            if question.food == food:
+            if question.food == food and question.concentration == concentration:
                 keyword = get_keyword(question.description)
                 descr_score_pairs.append([keyword, question.average_score()])
         output[concentration] = descr_score_pairs
+    return output
     
 if food_type is Food.BOTH:
     pudding_data = get_sorted_output(food=Food.PUDDING)
@@ -286,12 +287,58 @@ else:
 out_book = xlsxwriter.Workbook(f'{subject.id}_{food_type_descr(food_type)}.xlsx')
 out_sheet = out_book.add_worksheet()
 
+pudding_row = 0
+pudding_col = 0
+jello_row = 11
+jello_col = 0
+general_row = 23
+general_col = 0
+
+def write_data(sheet, data, start_row, start_col, label):
+    if data is None:
+        return False
+    
+    row, col = start_row, start_col
+    
+    # write the label at the pivot cell
+    sheet.write(row, col, label)
+
+    # write the question categories in the first column
+    row += 1
+    for q, _ in data[0]:
+        sheet.write(row, col, q)
+        row += 1
+    
+    # write the scores for each category, concentration pair
+    col += 1
+    for c, qa_list in data.items():
+        row = start_row
+        sheet.write(row, col, c)
+        row += 1
+        for _, a in qa_list:
+            sheet.write(row, col, a)
+            row += 1
+        col += 1
+    
+    return True
+
+merge_format = out_book.add_format({'align': 'center', 'valign': 'vcenter',})
+
 # write pudding data
-if pudding_data is not None:
-    pass
+if write_data(sheet=out_sheet, data=pudding_data, start_row=pudding_row, start_col=pudding_col, label='% Fat'):
+    out_sheet.merge_range('F1:F9', Food.PUDDING.value, merge_format)
 
 # write jello data
-if jello_data is not None:
-    pass
+if write_data(sheet=out_sheet, data=jello_data, start_row=jello_row, start_col=jello_col, label='Sucrose Concentration'):
+    out_sheet.merge_range('F12:F20', Food.JELLO.value, merge_format)
 
 # write general data
+out_sheet.write(general_row - 1, general_col + 1, 'Beginning')
+out_sheet.write(general_row - 1, general_col + 2, 'End')
+for q in state_questions:
+    out_sheet.write(general_row, general_col, get_keyword(q.description))
+    out_sheet.write(general_row, general_col + 1, q.begin_score)
+    out_sheet.write(general_row, general_col + 2, q.end_score)
+    general_row += 1
+
+out_book.close()
