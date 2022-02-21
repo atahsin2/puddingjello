@@ -52,6 +52,7 @@ Outputs:
 
 import csv
 from enum import Enum
+from pathlib import Path
 
 import toml
 import xlsxwriter
@@ -284,7 +285,10 @@ else:
     pudding_data = get_sorted_output(food=food_type)
     jello_data = get_sorted_output(food=food_type)
 
-out_book = xlsxwriter.Workbook(f'{subject.id}_{food_type_descr(food_type)}.xlsx')
+if not Path('output').is_dir():
+    # create output directory
+    Path('output').mkdir(parents=True, exist_ok=True)
+out_book = xlsxwriter.Workbook(f'output/{subject.id}_{food_type_descr(food_type)}.xlsx')
 out_sheet = out_book.add_worksheet()
 
 pudding_row = 0
@@ -297,18 +301,14 @@ general_col = 0
 def write_data(sheet, data, start_row, start_col, label):
     if data is None:
         return False
-    
     row, col = start_row, start_col
-    
     # write the label at the pivot cell
     sheet.write(row, col, label)
-
     # write the question categories in the first column
     row += 1
     for q, _ in data[0]:
         sheet.write(row, col, q)
         row += 1
-    
     # write the scores for each category, concentration pair
     col += 1
     for c, qa_list in data.items():
@@ -319,7 +319,6 @@ def write_data(sheet, data, start_row, start_col, label):
             sheet.write(row, col, a)
             row += 1
         col += 1
-    
     return True
 
 merge_format = out_book.add_format({'align': 'center', 'valign': 'vcenter',})
